@@ -55,6 +55,6 @@ If your starting file for the project is index.html, then its well and good, you
     <welcome-file-list>
     <welcome-file>hello.jsp</welcome-file>   // here is the change
     </welcome-file-list>
-By the way, keep the other default portion of the code as it is, you need to change only in case **welcome-file tag**.
+By the way, keep the other default portion of the code as it is, you need to change only in case of **welcome-file tag**.
  
 
