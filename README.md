@@ -11,20 +11,20 @@ First of all I would like to say that its not the one and only or mandatory stru
 # A. Follow the basic instructions for understanding, of the above structure:
 1.  **src - will contain all the classes,servlets within respective packages.**
      For the above demo structure, I have included 5 packages namely- 
-     a. com.bean - for the Bean/POJO class, 
-     b. com.controller - for the servlet class,
-     c. com.dao - for the DataAccessObjects class, for database operations,
-     d. com.service - (not required for small-projects) for the service class, to act as a bridge between servlet and dao. This can be omitted.
-     e. com.util - for the DatabaseUtil class which is for establishing and disconnecting a database connection. Again you can omit this, and include this methods in other             class.
+a.  **com.bean** - for the Bean/POJO class. 
+b.  **com.controller** - for the servlet class,
+c.  **com.dao** - for the DataAccessObjects class, for database operations,
+d.  **com.service** - (not required for small-projects) for the service class, to act as a bridge between servlet and dao. This can be omitted.
+e.  **com.util** - for the DatabaseUtil class which is for establishing and disconnecting a database connection. Again you can omit this, and include this methods in other             class.
 2. **WebContent - this will contain the source files including JSP, HTML, CSS, Javascript pages.**
      I have created a separate folder css to keep the css files, and javascript folder to include the javascript source files. Again this can be avoided, and can be included      in the WebContent folder directly.
      
-     Now, clone/download the above structure and import it in your ide, and you are ready to start with the mvc project.
+     Now, clone/download the above structure and follow the necessary steps, import it in your IDE, and you are ready to start with the mvc project.
      
 # B. Follow the basic instructions those who want to create the project structure manually:(for ecipse IDE)
 
 1. Open your ide, and create a Dynamic Web Project from File menu.
-2. Enter the name --> Select Target runtime as Apache Tomcat server  --> select the latest Dynamic web module version  --> Next  --> Next
+2. Enter the name --> Select Target runtime as Apache Tomcat server  --> select the latest Dynamic web module version  --> Next  --> Next -->
 3. Check the box to include web.xml deployment descriptor file in your project (this is the most important step)  --> Finish
 4. Your project is created. 
 Now go through  **A. Follow the basic instructions for understanding, of the above structure:** to continue with your mvc web project and to add packages and source files.
