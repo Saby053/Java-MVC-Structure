@@ -1,6 +1,7 @@
 # Java-MVC-Structure :Basic Structure for Java MVC Project
 
 First of all I would like to say that its **not the one and only or mandatory structure** to be followed for java mvc projects. You can use any structure, according to your requirements. I am going to give a description of the structure which I try to follow.
+**And this structure is for those who are not going to use any frameworks for the MVC Web-project.**
  
 # Pre-requisites before creating a web-project:
 1. Java or JDK must be installed properly.
