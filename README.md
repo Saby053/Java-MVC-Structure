@@ -9,13 +9,15 @@ First of all I would like to say that its **not the one and only or mandatory st
 4. Database for execution of database functionality, (not required at the initial part for creating the structure of the project).
  
 # A. Follow the basic instructions for understanding, of the above structure:
+
 1.  **src - will contain all the classes,servlets within respective packages.**
      For the above demo structure, I have included 5 packages namely- 
-a.  **com.bean** - for the Bean/POJO class. 
-b.  **com.controller** - for the servlet class,
-c.  **com.dao** - for the DataAccessObjects class, for database operations,
-d.  **com.service** - (not required for small-projects) for the service class, to act as a bridge between servlet and dao. This can be omitted.
+a.  **com.bean** - for the Bean/POJO class,  
+b.  **com.controller** - for the servlet class, 
+c.  **com.dao** - for the DataAccessObjects class, for database operations, 
+d.  **com.service** - (not required for small-projects) for the service class, to act as a bridge between servlet and dao. This class can be omitted,
 e.  **com.util** - for the DatabaseUtil class which is for establishing and disconnecting a database connection. Again you can omit this, and include this methods in other             class.
+
 2. **WebContent - this will contain the source files including JSP, HTML, CSS, Javascript pages.**
      I have created a separate folder css to keep the css files, and javascript folder to include the javascript source files. Again this can be avoided, and can be included      in the WebContent folder directly.
      
