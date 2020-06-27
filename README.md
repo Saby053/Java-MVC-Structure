@@ -25,11 +25,11 @@ e.  **com.util** - for the DatabaseUtil class which is for establishing and disc
      
      Now, clone/download the above structure and follow the necessary steps, import it in your IDE, and you are ready to start with the mvc project.
      
-# B. Follow the basic instructions those who want to create the project structure manually:(for ecipse IDE)
+# B. Follow the basic instructions those who want to create the project structure manually:(for eclipse IDE)
 
 1. Open your ide, and create a Dynamic Web Project from File menu.
 2. Enter the name --> Select Target runtime as Apache Tomcat server  --> select the latest Dynamic web module version  --> Next  --> Next -->
-3. Check the box to include web.xml deployment descriptor file in your project (this is the most important step)  --> Finish
+3. Check the box to include web.xml deployment descriptor file in your project (this is the most important step, since its essential to give a start to your dynamic web Project)  --> Finish
 4. Your project is created. 
 Now go through  **A. Follow the basic instructions for understanding, of the above structure:** to continue with your mvc web project and to add packages and source files.
 **src folder is available within Java Resources.**
